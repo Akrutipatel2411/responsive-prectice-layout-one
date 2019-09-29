@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6,p
 {
     display: none;
     background-color: black;
-    z-index: 20;
+    opacity: 0.8;
     position: absolute;
     width: 161px;
     text-align: left;
@@ -190,6 +190,109 @@ h1,h2,h3,h4,h5,h6,p
     color: white;
     background: 0 0;
 }
+.card-section
+{
+    width: 100%;
+    padding: 80px 0px;
+    position: relative;
+
+    
+}
+.card-cont
+{
+    width: 100%;
+    overflow: auto;
+    
+}
+.text-card
+{
+    padding: 0px 15px;
+    width: 50%;
+    float: left;
+    border: 1px solid #D7D7D7;
+
+}
+.text-max
+{
+    padding: 25px;
+}
+.text-max h6
+{
+    font-size: 22px;
+    color: #888888;
+    padding-bottom: 20px;
+}
+.text-max p
+{
+    color: #888888;
+    
+}
+.card-images
+{
+    padding: 0px 15px;
+    width: 25%;
+    float: left;
+    margin-bottom: 15px;
+    
+    
+    
+}
+.second-half
+{
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.card-cont .card-images
+{
+    text-align: center;
+}
+.images
+{
+    width: 100%;
+    position: relative;
+}
+.images img
+{
+    width: 100%;
+}
+.plc-effect
+{
+    opacity: 0;
+    display: block;
+    transform: translate(0,-50px);
+    line-height: 1;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    
+}
+
+ .card-images .images:hover p
+{
+    opacity: 1;
+    
+    
+}
+ .card-images .images::after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+ .card-cont .card-images .images:hover::after
+{
+    background-color: #A3C9D3;
+    opacity: 0.6;
+}
+
+
 
 
 
