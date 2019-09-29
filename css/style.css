@@ -96,3 +96,47 @@ h1,h2,h3,h4,h5,h6,p
 {
     color: #A3C9D3;
 }
+.nav-list-inner
+{
+    display: none;
+    background-color: black;
+    z-index: 20;
+    position: absolute;
+    width: 161px;
+    text-align: left;
+    transition: 0.3s all ease-in-out;
+}
+.nav-list-inner li
+{
+    width: 100%;
+    margin: 0;
+     border-bottom: 1px solid rgba(0,0,0,.6);
+}
+.nav-list-inner li>a
+{
+    color: inherit;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px; 
+    font-weight: 400;
+   
+}
+.nav-list li:hover .nav-list-inner
+{
+    display: block;
+    
+
+}
+.nav-list-inner li:hover
+{
+    color: white;
+    background-color: #A3C9D3;
+}
+.nav-list li:hover .nav-list-inner li>a
+{
+    color: #ffffff;
+    background-color: inherit;
+}
+
+
