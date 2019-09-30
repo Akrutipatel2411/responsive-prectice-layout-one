@@ -1,5 +1,5 @@
-body,html
-{
+body,
+html {
     width: 100%;
     height: 100%;
     margin: 0%;
@@ -9,30 +9,39 @@ body,html
     line-height: 1.7;
     color: white;
 }
-ul,li
-{
+
+ul,
+li {
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p
-{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
-*,::after,::before
-{
+
+*,
+::after,
+::before {
     box-sizing: border-box;
-/*    transition: 0.3s all ease-in-out;*/
+    /*    transition: 0.3s all ease-in-out;*/
 }
-.container
-{
+
+.container {
     width: 80%;
     margin: auto;
     padding: 0px 15px;
     position: relative;
 }
-.main-head
-{
+
+.main-head {
     background-image: url(../images/01.png);
     background-size: cover;
     background-position: center;
@@ -41,138 +50,138 @@ h1,h2,h3,h4,h5,h6,p
     z-index: 1;
     height: 100%;
     width: 100%;
-    
+
 }
-.head
-{
+
+.head {
     width: 100%;
     position: absolute;
-    
+
 }
-.header
-{
+
+.header {
     padding: 40px 0px;
     text-align: center;
 }
-.top
-{
+
+.top {
     padding-bottom: 20px;
-    
+
 }
-.main-head h1
-{
+
+.main-head h1 {
     font-size: 36px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.header .top h1>a
-{
+
+.header .top h1 > a {
     color: inherit;
     text-decoration: none;
     display: inline-block;
 }
-.main-head p
-{
+
+.main-head p {
     font-size: 12px;
     text-transform: uppercase;
     font-style: italic;
 }
-.head-nav
-{
+
+.head-nav {
     position: relative;
 }
-.nav-list li
-{
+
+.nav-list li {
     display: inline-block;
 }
-.nav-list li>a
-{
+
+.nav-list li > a {
     color: inherit;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
 }
-.head-nav .nav-list li>a:hover 
-{
+
+.head-nav .nav-list li > a:hover {
     color: #A3C9D3;
 }
-.nav-list-inner
-{
+
+.nav-list-inner {
     display: none;
     background-color: black;
     opacity: 0.8;
     position: absolute;
     width: 161px;
     text-align: left;
-    
+
 }
-.nav-list-inner li
-{
+
+.nav-list-inner li {
     width: 100%;
     margin: 0;
-     border-bottom: 1px solid rgba(0,0,0,.6);
+    border-bottom: 1px solid rgba(0, 0, 0, .6);
 }
-.nav-list-inner li>a
-{
+
+.nav-list-inner li > a {
     color: inherit;
     padding: 10px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: 400;
-   
-}
-.errow
-{
-    padding-right: 5px;
-}
-.nav-list li:hover .nav-list-inner
-{
-    display: block;
-    
 
 }
-.nav-list-inner li:hover
-{
+
+.errow {
+    padding-right: 5px;
+}
+
+.nav-list li:hover .nav-list-inner {
+    display: block;
+
+
+}
+
+.nav-list-inner li:hover {
     color: white;
     background-color: #A3C9D3;
 }
-.nav-list li:hover .nav-list-inner li>a
-{
+
+.nav-list li:hover .nav-list-inner li > a {
     color: #ffffff;
     background-color: inherit;
 }
-.sec-head
-{
+
+.sec-head {
     width: 100%;
     position: absolute;
     bottom: 10px;
     text-align: center;
-    
-    
+    padding-bottom: 15px;
+
 }
-.sec-head-cont
-{
+
+.sec-head-cont {
     width: 60%;
     margin: auto;
-    
+
 }
- .sec-head h3
-{
+
+.sec-head h3 {
     font-size: 20px;
     font-weight: 100;
     font-weight: lighter;
     padding: 15px 0px;
-    
+
 }
-.customer
-{
-   margin-top: 80px;
+
+.customer {
+    margin-top: 80px;
     padding-bottom: 20px;
 }
-.customer a
-{
+
+.customer a {
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px 12px;
@@ -183,101 +192,87 @@ h1,h2,h3,h4,h5,h6,p
     transition: 0.3s all ease-in-out;
     color: #ffffff;
 }
-.customer a:hover
-{
+
+.customer a:hover {
     border: 1px solid #fff;
     border-radius: 5px;
     color: white;
     background: 0 0;
 }
-.card-section
-{
+
+.card-section {
     width: 100%;
-    padding: 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     position: relative;
 
-    
 }
-.card-cont
-{
+
+.card-cont {
     width: 100%;
-    overflow: auto;
-    
+
+
 }
-.text-card
-{
-    padding: 0px 15px;
-    width: 50%;
-    float: left;
+
+.text-card {
+
+    width: 49.5%;
     border: 1px solid #D7D7D7;
 
 }
-.text-max
-{
+
+.text-max {
     padding: 25px;
 }
-.text-max h6
-{
+
+.text-max h6 {
     font-size: 22px;
     color: #888888;
-    padding-bottom: 20px;
-}
-.text-max p
-{
-    color: #888888;
-    
-}
-.card-images
-{
-    padding: 0px 15px;
-    width: 25%;
-    float: left;
-    margin-bottom: 15px;
-    
-    
-    
-}
-.second-half
-{
-    width: 100%;
-    overflow: auto;
-    
+    padding-bottom: 12px;
 }
 
-.card-cont .card-images
-{
-    text-align: center;
+.text-max p {
+    color: #888888;
+
 }
-.images
-{
+
+.card-images {
+
+    width: 25%;
+
+
+}
+
+
+.images {
     width: 100%;
     position: relative;
 }
-.images img
-{
+
+.images img {
     width: 100%;
+
 }
-.plc-effect
-{
+
+.plc-effect {
     opacity: 0;
     display: block;
-    transform: translate(0,-50px);
+    transform: translate(0, -50px);
     line-height: 1;
-    text-align: center;
     z-index: 1;
     position: absolute;
     top: 70%;
-    
+    left: 40%;
+
 }
 
- .card-images .images:hover p
-{
+.card-images .images:hover p {
     opacity: 1;
-    
-    
+
+
 }
- .card-images .images::after
-{
+
+.card-images .images::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -286,13 +281,8 @@ h1,h2,h3,h4,h5,h6,p
     height: 100%;
     opacity: 0;
 }
- .card-cont .card-images .images:hover::after
-{
+
+.card-cont .card-images .images:hover::after {
     background-color: #A3C9D3;
     opacity: 0.6;
 }
-
-
-
-
-
