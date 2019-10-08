@@ -286,3 +286,172 @@ p {
     background-color: #A3C9D3;
     opacity: 0.6;
 }
+.further-section
+{
+    background-image: url(../images/01.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+.arrow-real
+{
+    width: 60%;
+    margin: auto;
+    padding: 80px 0px;
+    text-align: center;
+    
+}
+.heading-arrow
+{
+    font-size: 22px;
+    padding-bottom: 20px;
+    
+}
+.further-pera
+{
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.further-button
+{
+    color: #FFFFFF;
+    background-color: #A3C9D3; 
+    display: inline-block;
+    padding: 10px 20px 12px;
+    text-transform: uppercase;
+    border: 1px solid #A3C9D3;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.further-button:hover
+{
+    background: 0 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.financing-section
+{
+    width: 100%;
+    position: relative;
+    padding: 80px 0px;
+}
+.fin-cont
+{
+    width: 100%;
+    color: #888888;
+}
+.fin-head
+{
+    padding-bottom: 50px;
+    
+    text-align: center;
+}
+.detail-cont
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-card
+{
+    width: 33.33%;
+    text-align: center;
+}
+.detail
+{
+    width: 100%;
+    padding-top: 20px;
+    
+}
+.detail-cont .detail span
+{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 60px;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 400;
+    z-index: 1;
+    color: white;
+    
+}
+.detail-cont .detail span::before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transform: rotate(-90deg);
+    z-index: -1;
+    background-color: #A3C9D3;
+    border: 1px solid #A3C9D3;
+    border-radius: 5px;
+}
+.detail-cont .detail span::after
+{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+    background-color: #A3C9D3;
+    border: 1px solid #A3C9D3;
+    border-radius: 5px;
+}
+.detail-card .detail:hover span::after
+{
+    transform: rotate(360deg);
+    transition: transform .5s ease-in-out;
+}
+.detail h6
+{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    
+}
+.detail h6 a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+.detail-card .detail:hover h6 a
+{
+    color: #A3C9D3;
+}
+.detail-link 
+{
+    padding-top: 30px; 
+}
+.detail-link a
+{
+    color: #A3C9D3;
+    text-decoration: none;
+    display: inline-block;
+}
+.foot
+{
+    background-image: url(../images/01.png);
+    background-position:center top;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.foot-upper
+{
+    padding: 80px 0px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    width: 978px;
+    margin: auto;
+}
